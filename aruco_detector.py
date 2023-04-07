@@ -1,6 +1,6 @@
 import cv2
 from cv2 import aruco
-
+#simple code to detect aruco markers in an image 
 while True:
     img=cv2.imread("1.jpg")
     gray=cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
